@@ -1,0 +1,93 @@
+* {
+  margin: 8px;
+  background-color: rgb(241, 241, 241);
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+nav {
+  gap: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.logo-front {
+  height: 100px;
+  width: 150px;
+}
+
+.logo {
+  height: 60px;
+  width: 60px;
+}
+
+.logo-background {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 0 5px 5px grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-logo {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.video-container {
+  width: 30%;
+  margin-right: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.video-container h2 {
+  font-size: 60px;
+}
+
+.video-container p {
+  font-size: 15;
+  color: rgb(71, 71, 71);
+}
+
+.learning-video {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.buy-button,
+.video-button {
+  height: 50px;
+  width: 100px;
+  background-color: blue;
+  color: white;
+  border-radius: 25px;
+  border: solid 1px blue;
+}
+
+.various-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+}
+
+.why-front {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
